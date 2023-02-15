@@ -4,7 +4,7 @@ type Props = {}
 
 export default function ExperienceCard({}: Props) {
   return (
-    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-gray-700 p-10  hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 '>
+    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-gray-700 p-10  hover:opacity-100 opacity-100 cursor-pointer transition-opacity duration-200 '>
         <motion.img
         initial={{
             y:-100,
@@ -36,8 +36,8 @@ export default function ExperienceCard({}: Props) {
             </div>
             <p className='uppercase py-5 text-gray-300'>June 2022 - Current</p>
 
-            <ul className='list-disc space-y-4 ml-5 text-left md:text-lg text-center'>
-                <li>Wrote and reviewed code for machine learning api for navigation of planes and missiles
+            <ul className='list-disc space-y-4 ml-5 text-left md:text-lg px-20 md:p-0'>
+                <li>Learned about machine learning applications for navigation of planes and missiles
                     Leveraged Knowledege in Tensorflow, Numpy, OpenCV, Pandas, C++, and Python</li>
             </ul>
         </div>
