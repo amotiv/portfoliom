@@ -2,6 +2,8 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import PortfolioProject from "../components/PortfolioProject"
 import EclientProject from './EclientProject'
+import FiltermcProject from './FiltermcProject'
+import Chatbot from './Chatbot'
 type Props = {}
 
 export default function Projects({}: Props) {
@@ -18,6 +20,8 @@ export default function Projects({}: Props) {
         </h3>
         <div className='w-full flex space-x-5 overflow-x-scroll p-2 snap-x snap-mandatory text-center'>
             <EclientProject />
+            <Chatbot />
+            <FiltermcProject />
             <PortfolioProject />
         </div>
     </motion.div>
